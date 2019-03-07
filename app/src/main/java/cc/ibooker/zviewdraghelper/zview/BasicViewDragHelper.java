@@ -105,6 +105,7 @@ public class BasicViewDragHelper extends LinearLayout {
 
             /**
              * 拖拽View在Y轴可以拖拽的距离-该方法不是对View范围的限制，而是作为动画执行速度计算使用 >0 即可
+             *
              * @param child 拖拽View
              * @return Y轴可以拖拽的距离
              */
@@ -116,6 +117,7 @@ public class BasicViewDragHelper extends LinearLayout {
 
             /**
              * 拖拽View在X轴可以拖拽的距离-该方法不是对View范围的限制，而是作为动画执行速度计算使用 >0 即可
+             *
              * @param child 拖拽View
              * @return X轴可以拖拽的距离
              */
