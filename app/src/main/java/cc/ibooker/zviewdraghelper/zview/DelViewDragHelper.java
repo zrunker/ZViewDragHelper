@@ -70,6 +70,15 @@ public class DelViewDragHelper extends ViewGroup {
                 invalidate();
             }
 
+            /**
+             * 拖拽View位置改变时候回调
+             *
+             * @param changedView 待拖拽View
+             * @param left 左侧距离
+             * @param top 顶部距离
+             * @param dx X轴变化量
+             * @param dy Y轴变化量
+             */
             @Override
             public void onViewPositionChanged(@NonNull View changedView, int left, int top, int dx, int dy) {
                 mLeft += dx;
