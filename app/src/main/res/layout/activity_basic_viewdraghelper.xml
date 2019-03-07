@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.ibooker.zviewdraghelper.zview.BasicViewDragHelper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#40aff2"
+        android:gravity="center"
+        android:text="拖拽1"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#40aff2"
+        android:gravity="center"
+        android:text="拖拽2"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+</cc.ibooker.zviewdraghelper.zview.BasicViewDragHelper>
